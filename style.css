@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.container{
+    max-width: 1150px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+/* header-top-section */
+.header-top-section{
+    background-color: #f5fbff;
+    padding: 20px 0;
+}
+.header-top-area{}
+.header-top-left{
+    width: 50%;
+}
+.header-top-left ul{}
+.header-top-left ul li{
+    display: inline-block;
+}
+.header-top-left ul li a {
+	display: block;
+	font-size: 21px;
+	color: black;
+	opacity: .5;
+	padding-right: 11px;
+	background: transparent;
+    transition: .4s;
+}
+.header-top-left ul li a:nth-child(1){
+    padding-left: 0;
+}
+.header-top-left ul li a:hover{
+    color: blue;
+    opacity: .8;
+}
+.header-top-right{
+    width: 50%;
+}
+.header-top-right ul{
+    text-align: right;
+}
+.header-top-right ul li{
+    display: inline-block;
+}
+.header-top-right ul li a {
+	display: block;
+	padding-left: 21px;
+	font-size: 19px;
+	color: black;
+	opacity: .5;
+}
+.header-top-right ul li a span {
+	padding: 0 8px;
+}
+/* header-section */
+.header-section{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.header-area{}
+.header-logo{
+    width: 20%;
+}
+.header-logo img {
+	margin-top: 5px;
+}
+.header-menu{
+    width: 60%;
+}
+.header-menu ul{
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a {
+	display: block;
+	color: black;
+	font-size: 20px;
+	padding: 0 12px;
+	line-height: 54px;
+	opacity: .5;
+    transition: .4s;
+}
+.header-menu ul li a:hover{
+    color: black;
+    opacity: 1;
+}
+.header-button{
+    width: 20%;
+    text-align: right;
+}
+.header-button a {
+	display: inline-block;
+	color: white;
+	font-size: 21px;
+	position: relative;
+	top: 5px;
+	text-align: center;
+	padding: 10px 15px;
+	background-color: #009dff;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+    transition: .4s;
+}
+.header-button a:hover{
+    color: #009dff;
+    border: 1px solid #009dff;
+    background-color: #fff;
+
+}
+/* banner-section */
+.banner-section{
+    background-image: url(./img/DOCTOR.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 230px 0;
+}
+.banner-content{}
+.banner-content h1 {
+	font-size: 45px;
+	font-weight: 900;
+	padding: 10px 0;
+}
+.banner-content h3 {
+	font-size: 48px;
+	font-weight: 300;
+	word-spacing: 5px;
+	padding: 10px 0;
+	opacity: .7;
+}
+.banner-content p {
+	width: 500px;
+	font-size: 23px;
+	color: #767676;
+	padding: 15px 0;
+	margin-bottom: 15px;
+}
+.banner-content a{
+    display: inline-block;
+    color: white;
+    transition: .4s;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-size: 20px;
+    background: linear-gradient(to right,#0181f5 0%,#5db2ff 100%);
+
+}
+.banner-content a:hover{
+    color: #009dff;
+    border: 1px solid #009dff;
+    background: white;
+}
